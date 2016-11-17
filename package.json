@@ -1,0 +1,19 @@
+{
+  "name": "ubelt",
+  "version": "1.0.0",
+  "description": "cli utilities",
+  "main": "app.js",
+  "repository": {
+    "url": "https://github.com/efbenson/utility-belt.git",
+    "type": "git"
+  },
+  "bin": {
+    "ubelt": "./app.js"
+  },
+  "author": "Erik Benson <efbenson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "inquirer": "^1.2.3"
+  }
+}

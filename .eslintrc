@@ -1,0 +1,80 @@
+{
+    "env": {
+        "mocha": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "prefer-const": "warn",
+        "max-lines" : ["warn", {"max": 300, "skipBlankLines": true}],
+        "no-new-require": ["error"],
+        "strict": ["error", "global"],
+        "complexity": ["warn", 10],
+        "eqeqeq": ["error"],
+        "dot-location": ["error", "property"],
+        "dot-notation": ["error"],
+        "default-case": ["error"],
+        "no-console": ["warn"],
+        "no-var": ["error"],
+        "indent": [
+            "error",
+            4,
+            { "SwitchCase": 1 }
+        ],
+        "linebreak-style": [
+            "warn",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-bitwise": 2,
+        "curly": 2,
+        "guard-for-in": 2,
+        "no-extend-native": 2,
+        "wrap-iife": 2,
+        "no-caller": 2,
+        "no-empty": 2,
+        "no-irregular-whitespace": 2,
+        "no-undef": 2,
+        "no-unused-vars": [
+            2,
+            {
+                "vars": "local",
+                "args": "after-used"
+            }
+        ],
+        "max-len": [
+            2,
+            150
+        ],
+        "comma-style": [
+            2,
+            "last"
+        ],
+        "no-shadow": 2,
+        "comma-dangle": [
+            2,
+            "never"
+        ],
+        "no-implicit-coercion": [
+            2,
+            {
+                "boolean": false,
+                "string": true,
+                "number": false
+            }
+        ],
+        "consistent-this": [
+            2,
+            "_this"
+        ],
+        "valid-jsdoc": 2
+    }
+}

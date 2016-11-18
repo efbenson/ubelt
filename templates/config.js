@@ -1,7 +1,8 @@
 'use strict';
 
-const config = { 
+module.exports = { 
     test : {
+        folder: 'test/**',
         questions: [
             {
                 type: 'input',
@@ -19,11 +20,12 @@ const config = {
         ]
     }, 
     test2 : {
+        folder: '/test/**',
         questions: [
             {
                 type: 'input',
-                name: 'Test2Question',
-                message: 'Test2Question?',
+                name: 'user',
+                message: 'user?',
                 validate: function (value) {
                     return true;
                 }
@@ -32,6 +34,3 @@ const config = {
     }
 };
 
-module.exports = {
-    config: config
-};

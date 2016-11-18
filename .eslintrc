@@ -15,7 +15,7 @@
         "dot-location": ["error", "property"],
         "dot-notation": ["error"],
         "default-case": ["error"],
-        "no-console": ["warn"],
+        "no-console": 0,
         "no-var": ["error"],
         "indent": [
             "error",

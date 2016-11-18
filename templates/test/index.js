@@ -1,1 +1,4 @@
-var greeting = 'hello <%= user %>!';
+'use strict';
+const greeting = 'hello <%= user %>!';
+
+console.log(greeting);

@@ -13,7 +13,12 @@
   "author": "Erik Benson <efbenson@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.4.6",
     "commander": "^2.9.0",
-    "inquirer": "^1.2.3"
+    "conflict": "^0.0.0",
+    "gulp": "^3.9.1",
+    "gulp-template": "^4.0.0",
+    "inquirer": "^1.2.3",
+    "rename": "^1.0.3"
   }
 }

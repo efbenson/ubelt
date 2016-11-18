@@ -7,7 +7,6 @@ const loader = require('./lib/loader');
 
 loader.init();
 
-//const options = loader.getOptions();
 const commands = loader.getCommands();
 
 program
@@ -20,11 +19,3 @@ for(const command of commands) {
 }
 
 program.parse(process.argv);
-
-//loader.exec(program);
-
-// console.log('you ordered a pizza with:');
-// if (program.peppers) console.log('  - peppers');
-// if (program.pineapple) console.log('  - pineapple');
-// if (program.bbqSauce) console.log('  - bbq');
-// console.log('  - %s cheese', program.cheese);

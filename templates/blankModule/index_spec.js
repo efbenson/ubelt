@@ -16,8 +16,5 @@ describe('<%= config.relativePath %><%= config.name %>.js', function() {
         it('should reject on missing config', function() {
             return index.init().should.be.rejectedWith(Error, '<%= config.relativePath %><%= config.name %>: missing config');
         });
-        it('should init dependancies', function(done) {
-            index.init({}, {eventHandler: {init: function() {done();}}});
-        });
     });
 });

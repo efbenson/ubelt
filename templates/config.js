@@ -1,26 +1,18 @@
 'use strict';
 
 module.exports = { 
-    test : {
-        folder: 'test/**',
+    blankModule : {
+        folder: '/blankModule/**',
         questions: [
             {
                 type: 'input',
-                name: 'phone',
-                message: 'What\'s your phone number?'
-            }
-        ]
-    }, 
-    test2 : {
-        folder: '/test/**',
-        questions: [
+                name: 'name',
+                message: 'Name of the module?'
+            },
             {
                 type: 'input',
-                name: 'user',
-                message: 'user?',
-                validate: function () {
-                    return true;
-                }
+                name: 'relativePath',
+                message: 'Relative path of the module from the base project (include trailing slash)?'
             }
         ]
     }
